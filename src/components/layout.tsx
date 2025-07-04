@@ -1,5 +1,6 @@
 import type { PropsWithChildren } from "react";
-import  Header  from "./header";
+import { Header } from "./header"; // ✅ Correct for named export
+
 
 export function Layout({ children }: PropsWithChildren) {
   return (
